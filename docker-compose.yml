@@ -1,0 +1,7 @@
+version: '2'
+services:
+  emotion_facial:
+    container_name: emotion_facial
+    image: "bamos/openface"
+    volumes:
+     - .:/emotion
